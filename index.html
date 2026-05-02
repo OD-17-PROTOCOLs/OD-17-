@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ARCHIVE</title>
+<style>
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 40px;
+}
+a {
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+.locked {
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<h2>ARCHIVE</h2>
+
+<a href="file17.html">File_17-03-A</a>
+<p class="locked">File_17-03-B [LOCKED]</p>
+<p class="locked">Subject_04 [ERROR]</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FILE 17</title>
+<style>
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 40px;
+}
+.hidden {
+    color: black;
+}
+</style>
+</head>
+
+<body>
+
+<h2>FILE 17-03-A</h2>
+
+<p>Subject shows no anomalies.</p>
+<p>Visual distortion not confirmed.</p>
+
+<p class="hidden">observer</p>
+
+<script>
+// случайное сообщение
+setTimeout(() => {
+    document.body.innerHTML += "<p style='color:red;'>log: external viewer detected</p>";
+}, 4000);
+</script>
+
+</body>
+</html>
